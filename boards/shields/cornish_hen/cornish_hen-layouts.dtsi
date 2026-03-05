@@ -1,0 +1,56 @@
+#include <physical_layouts.dtsi>
+
+/ {
+    physical_layout_cornish_hen: physical_layout_cornish_hen {
+        compatible = "zmk,physical-layout";
+        display-name = "Cornish Hen";
+        keys  //                     w   h    x    y     rot    rx    ry
+            = <&key_physical_attrs 100  50    0(-10)       0     0     0>
+            , <&key_physical_attrs 100  50  100(-10)       0     0     0>
+            , <&key_physical_attrs 100  50  200(-10)       0     0     0>
+            , <&key_physical_attrs 100  50  300(-10)       0     0     0>
+            , <&key_physical_attrs 100  50  400(-10)       0     0     0>
+            , <&key_physical_attrs 100  50  700(-10)       0     0     0>
+            , <&key_physical_attrs 100  50  800(-10)       0     0     0>
+            , <&key_physical_attrs 100  50  900(-10)       0     0     0>
+            , <&key_physical_attrs 100  50 1000(-10)       0     0     0>
+            , <&key_physical_attrs 100  50 1100(-10)       0     0     0>
+            , <&key_physical_attrs 100 100    0   87       0     0     0>
+            , <&key_physical_attrs 100 100  100   62       0     0     0>
+            , <&key_physical_attrs 100 100  200   50       0     0     0>
+            , <&key_physical_attrs 100 100  300   62       0     0     0>
+            , <&key_physical_attrs 100 100  400   74       0     0     0>
+            , <&key_physical_attrs 100 100  700   74       0     0     0>
+            , <&key_physical_attrs 100 100  800   62       0     0     0>
+            , <&key_physical_attrs 100 100  900   50       0     0     0>
+            , <&key_physical_attrs 100 100 1000   62       0     0     0>
+            , <&key_physical_attrs 100 100 1100   87       0     0     0>
+            , <&key_physical_attrs 100 100    0  187       0     0     0>
+            , <&key_physical_attrs 100 100  100  162       0     0     0>
+            , <&key_physical_attrs 100 100  200  150       0     0     0>
+            , <&key_physical_attrs 100 100  300  162       0     0     0>
+            , <&key_physical_attrs 100 100  400  174       0     0     0>
+            , <&key_physical_attrs 100 100  700  174       0     0     0>
+            , <&key_physical_attrs 100 100  800  162       0     0     0>
+            , <&key_physical_attrs 100 100  900  150       0     0     0>
+            , <&key_physical_attrs 100 100 1000  162       0     0     0>
+            , <&key_physical_attrs 100 100 1100  187       0     0     0>
+            , <&key_physical_attrs 100 100    0  287       0     0     0>
+            , <&key_physical_attrs 100 100  100  262       0     0     0>
+            , <&key_physical_attrs 100 100  200  250       0     0     0>
+            , <&key_physical_attrs 100 100  300  262       0     0     0>
+            , <&key_physical_attrs 100 100  400  274       0     0     0>
+            , <&key_physical_attrs 100 100  700  274       0     0     0>
+            , <&key_physical_attrs 100 100  800  262       0     0     0>
+            , <&key_physical_attrs 100 100  900  250       0     0     0>
+            , <&key_physical_attrs 100 100 1000  262       0     0     0>
+            , <&key_physical_attrs 100 100 1100  287       0     0     0>
+            , <&key_physical_attrs 100 100  250  362       0     0     0>
+            , <&key_physical_attrs 100 100  350  362    1200   350   462>
+            , <&key_physical_attrs 100 150  448  333    2400   448   483>
+            , <&key_physical_attrs 100 150  652  333 (-2400)   752   483>
+            , <&key_physical_attrs 100 100  750  362 (-1200)   850   462>
+            , <&key_physical_attrs 100 100  850  362       0     0     0>
+            ;
+    };
+};

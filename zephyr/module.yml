@@ -1,0 +1,4 @@
+name: zmk-keyboard-cornish-hen
+build:
+  settings:
+    board_root: .
